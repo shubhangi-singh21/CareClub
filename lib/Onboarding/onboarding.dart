@@ -1,5 +1,7 @@
 import 'dart:ui';
 
+import 'package:careclub/Auth/auth.dart';
+import 'package:careclub/userLocation/location.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:introduction_screen/introduction_screen.dart';
@@ -32,9 +34,9 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
   final introKey = GlobalKey<IntroductionScreenState>();
 
   void _onIntroEnd(context) {
-    // Navigator.of(context).push(
-    //  MaterialPageRoute(builder: (_) => Location()),
-    // );
+    Navigator.of(context).push(
+      MaterialPageRoute(builder: (_) => Auth()),
+    );
   }
 
   Widget _buildImage(String assetName) {
