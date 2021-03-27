@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:careclub/Auth/auth.dart';
+import 'package:careclub/userLocation/location.dart';
 //import 'package:careclub/userLocation/location.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -35,7 +36,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
 
   void _onIntroEnd(context) {
     Navigator.of(context).push(
-      MaterialPageRoute(builder: (_) => Auth()),
+      MaterialPageRoute(builder: (_) => Location()),
     );
   }
 
