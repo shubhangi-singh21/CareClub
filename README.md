@@ -16,6 +16,23 @@ crafted with <span style="color: #ce2029;">&hearts;</span> by team Alpha Debugge
 </p>
 
 > Happiness doesn't result from what we get, but from what we give. To care is to share. 🤗
+ 
+
+## Preview 📺
+
+<div align="center">
+  <img alt="Onboarding Screen 1" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/OB1.png" height="350" />
+   <img alt="Onboarding Screen 2" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/OB2.png" height="350" />
+     <img alt="Onboarding Screen 3" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/OB3.png.png" height="350" />
+     <img alt="Onboarding Screen 5" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/OB5.png" height="350" />
+     <img alt="Login Screen" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Login_Screen.png" height="350" />
+     <img alt="Language Support" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Language_Support.png" height="350" /> 
+     <img alt="Select UN SDG Goal" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Select%20Goal_Screen.png" height="350" /> 
+     <img alt="Track_Screen" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Category.png" height="350" /> 
+     <img alt="CareClub in-app Store" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Store.png" height="350" />
+    <img alt="Track Screen" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Track_Screen.png" height="350" /> 
+   <img alt="Summary" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Summary.png" height="350" /> 
+</div>
 
 
 ## Installation 🔨
