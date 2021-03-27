@@ -1,8 +1,12 @@
+import 'package:careclub/Donate/donate.dart';
+import 'package:careclub/Explore/explore.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:hexcolor/hexcolor.dart';
+import 'package:careclub/Summary/summary.dart';
 
 Widget widget;
 int selected;
@@ -19,29 +23,29 @@ class _TestState extends State<Test> {
     super.initState();
     setState(() {
       selected = 0;
-      // screen(selected);
+      screen(selected);
     });
   }
 
-  /* void screen(int i) {
+  void screen(int i) {
     switch (i) {
       case 0:
         widget = Explore();
         break;
-      case 1:
+      /*case 1:
         widget = Store();
-        break;
+        break;*/
       case 2:
         widget = Donate();
         break;
       case 3:
-        widget = Summary();
+        widget = Summary1();
         break;
-      case 4:
+      /*case 4:
         widget = Profile();
-        break;
+        break;*/
     }
-  }*/
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -55,7 +59,7 @@ class _TestState extends State<Test> {
           onTap: (int index) {
             setState(() {
               selected = index;
-              //screen(index);
+              screen(index);
             });
           },
           type: BottomNavigationBarType.shifting,

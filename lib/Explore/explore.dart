@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:welfare/Language/language1.dart';
+
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 class Explore extends StatefulWidget {
@@ -80,7 +80,7 @@ class _ExploreState extends State<Explore> {
             alignment: Alignment.topCenter,
             child: RichText(
                 text: TextSpan(
-                    text: "WE",
+                    text: "CARE",
                     style: TextStyle(
                         shadows: [
                           Shadow(
@@ -93,7 +93,7 @@ class _ExploreState extends State<Explore> {
                         fontWeight: FontWeight.bold),
                     children: <TextSpan>[
                   TextSpan(
-                      text: "lfare",
+                      text: "club",
                       style: TextStyle(
                           shadows: [
                             Shadow(
