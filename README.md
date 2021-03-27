@@ -28,9 +28,10 @@ crafted with <span style="color: #ce2029;">&hearts;</span> by team Alpha Debugge
      <img alt="Login Screen" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Login_Screen.png" height="350" />
      <img alt="Language Support" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Language_Support.png" height="350" /> 
      <img alt="Select UN SDG Goal" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Select%20Goal_Screen.png" height="350" /> 
+       <img alt="Select donation category" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Category.png" height="350" /> 
        <img alt="Razorpay Integration" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Razorpay.png" height="350" /> 
        <img alt="Non-Monetary donation" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Non-monetory.png" height="350" /> 
-     <img alt="Track_Screen" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Category.png" height="350" /> 
+     <img alt="Contact NGO" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Contact%2BNGO.png" height="350" /> 
      <img alt="CareClub in-app Store" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Store.png" height="350" />
     <img alt="Track Screen" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Track_Screen.png" height="350" /> 
    <img alt="Summary" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Summary.png" height="350" /> 
