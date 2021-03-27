@@ -58,6 +58,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+flutter_icons:    
+ android: "launcher_icon"    
+ ios: true    
+ image_path: "images/logo.png"   
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -109,7 +113,8 @@ flutter:
      - images/sustainable.jpeg
      - images/umbrella.jpeg
      - images/welfare.jpeg
-    
+     - images/peace.jpeg
+     - images/summary.jpeg
      - images/Location.gif
     
   # An image asset can refer to one or more resolution-specific "variants", see

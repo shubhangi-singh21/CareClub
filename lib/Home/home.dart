@@ -1,5 +1,6 @@
 import 'package:careclub/Donate/donate.dart';
 import 'package:careclub/Explore/explore.dart';
+import 'package:careclub/Profile/profile.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -7,6 +8,7 @@ import 'package:flutter_icons/flutter_icons.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:hexcolor/hexcolor.dart';
 import 'package:careclub/Summary/summary.dart';
+import 'package:careclub/Store/store.dart';
 
 Widget widget;
 int selected;
@@ -32,18 +34,18 @@ class _TestState extends State<Test> {
       case 0:
         widget = Explore();
         break;
-      /*case 1:
-        widget = Store();
-        break;*/
+      case 1:
+        widget = Store1();
+        break;
       case 2:
         widget = Donate();
         break;
       case 3:
         widget = Summary1();
         break;
-      /*case 4:
+      case 4:
         widget = Profile();
-        break;*/
+        break;
     }
   }
 

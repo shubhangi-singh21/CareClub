@@ -2,6 +2,7 @@ import 'package:careclub/Payment/response.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_icons/flutter_icons.dart';
+import 'package:hexcolor/hexcolor.dart';
 
 import 'package:razorpay_flutter/razorpay_flutter.dart';
 
@@ -24,47 +25,64 @@ class _MyAppState extends State<MyApp> {
           iconTheme: IconThemeData(color: Colors.black),
           elevation: 0,
           backgroundColor: Colors.transparent,
-          centerTitle: true,
-          title: const Text(
-            'Payment Page',
-            style: TextStyle(color: Colors.black, fontSize: 35),
+          title: Text(
+            'Payment',
+            style: TextStyle(color: HexColor("#931924"), fontSize: 25),
           )),
       body: Center(
           child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-            Text(
-              "Do you want to proceed?",
-              style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold),
-            ),
-            SizedBox(
-              height: 15,
-            ),
-            Row(
-              children: [
-                SizedBox(
-                  width: MediaQuery.of(context).size.width / 2,
+            Card(
+              elevation: 20,
+              child: Container(
+                height: 190,
+                width: 350,
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: Text(
+                          "Are you sure you want to continue with the payment?",
+                          style: TextStyle(
+                              fontSize: 20, fontWeight: FontWeight.bold)),
+                    ),
+                    SizedBox(
+                      height: 40,
+                    ),
+                    Row(
+                      children: [
+                        SizedBox(
+                          width: MediaQuery.of(context).size.width / 3.5,
+                        ),
+                        RaisedButton(
+                            color: HexColor("#931924"),
+                            shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(8)),
+                            elevation: 0,
+                            onPressed: openCheckout,
+                            child: Text(
+                              'Yes',
+                              style: TextStyle(color: Colors.white),
+                            )),
+                        SizedBox(
+                          width: 15,
+                        ),
+                        RaisedButton(
+                            shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(8)),
+                            elevation: 0,
+                            onPressed: () {},
+                            child: Text(
+                              'No',
+                              style: TextStyle(color: HexColor("#931924")),
+                            )),
+                      ],
+                    )
+                  ],
                 ),
-                RaisedButton(
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(15)),
-                    elevation: 0,
-                    onPressed: openCheckout,
-                    child: Text('Yes')),
-                SizedBox(
-                  width: 15,
-                ),
-                RaisedButton(
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(15)),
-                    elevation: 0,
-                    onPressed: () {},
-                    child: Text('No')),
-              ],
-            )
+              ),
+            ),
           ])),
     );
   }

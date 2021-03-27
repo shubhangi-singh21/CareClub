@@ -17,27 +17,27 @@ class _TrackState extends State<Track> {
   List<Icon> icon = [
     Icon(
       Icons.person,
-      color: CupertinoColors.activeOrange,
+      color: HexColor("#931924"),
     ),
     Icon(
       FontAwesome.map_marker,
-      color: CupertinoColors.activeOrange,
+      color: HexColor("#931924"),
     ),
     Icon(
       CupertinoIcons.map_pin,
-      color: CupertinoColors.activeOrange,
+      color: HexColor("#931924"),
     ),
     Icon(
       FontAwesome.road,
-      color: CupertinoColors.activeOrange,
+      color: HexColor("#931924"),
     ),
     Icon(
       FontAwesome.check,
-      color: CupertinoColors.activeOrange,
+      color: HexColor("#931924"),
     ),
     Icon(
       CupertinoIcons.smiley,
-      color: CupertinoColors.activeOrange,
+      color: HexColor("#931924"),
     ),
   ];
 
@@ -148,7 +148,7 @@ class _TrackState extends State<Track> {
         iconTheme: IconThemeData(color: Colors.black),
         title: Text(
           "Progress",
-          style: TextStyle(color: CupertinoColors.activeOrange, fontSize: 24),
+          style: TextStyle(color: HexColor("#931924"), fontSize: 24),
         ),
         centerTitle: true,
       ),
@@ -218,7 +218,7 @@ class _TrackState extends State<Track> {
               onTap: () {},
               child: Container(
                   decoration: BoxDecoration(
-                      border: Border.all(color: HexColor("#FF6666"), width: 2),
+                      border: Border.all(color: HexColor("#931924"), width: 2),
                       borderRadius: BorderRadius.circular(15)),
                   width: MediaQuery.of(context).size.width / 1.3,
                   height: MediaQuery.of(context).size.height / 13.3,
@@ -227,8 +227,7 @@ class _TrackState extends State<Track> {
                       padding: const EdgeInsets.all(9.0),
                       child: Text(
                         "View Pictures/videos of your donation",
-                        style: TextStyle(
-                            color: CupertinoColors.activeOrange, fontSize: 20),
+                        style: TextStyle(color: Colors.orange, fontSize: 20),
                       ),
                     ),
                   )),
@@ -246,7 +245,7 @@ class _TrackState extends State<Track> {
                   padding: const EdgeInsets.all(12.0),
                   child: Container(
                     child:
-                        Icon(Icons.person, color: CupertinoColors.activeOrange),
+                        Icon(Icons.person, color:  Colors.orange),
                     width: 70,
                     height: 70,
                     decoration: BoxDecoration(
@@ -289,7 +288,7 @@ class _TrackState extends State<Track> {
                   padding: const EdgeInsets.all(12.0),
                   child: Container(
                     child: Icon(FontAwesome.map_marker,
-                        color: CupertinoColors.activeOrange),
+                        color:  Colors.orange),
                     width: 70,
                     height: 70,
                     decoration: BoxDecoration(
@@ -332,7 +331,7 @@ class _TrackState extends State<Track> {
                   padding: const EdgeInsets.all(12.0),
                   child: Container(
                     child: Icon(CupertinoIcons.map_pin,
-                        color: CupertinoColors.activeOrange),
+                        color:  Colors.orange),
                     width: 70,
                     height: 70,
                     decoration: BoxDecoration(
@@ -375,7 +374,7 @@ class _TrackState extends State<Track> {
                   padding: const EdgeInsets.all(12.0),
                   child: Container(
                     child: Icon(FontAwesome.road,
-                        color: CupertinoColors.activeOrange),
+                        color:  Colors.orange),
                     width: 70,
                     height: 70,
                     decoration: BoxDecoration(
@@ -418,7 +417,7 @@ class _TrackState extends State<Track> {
                   padding: const EdgeInsets.all(12.0),
                   child: Container(
                     child: Icon(FontAwesome.check,
-                        color: CupertinoColors.activeOrange),
+                        color:  Colors.orange),
                     width: 70,
                     height: 70,
                     decoration: BoxDecoration(
@@ -461,7 +460,7 @@ class _TrackState extends State<Track> {
                   padding: const EdgeInsets.all(12.0),
                   child: Container(
                     child: Icon(CupertinoIcons.map_pin,
-                        color: CupertinoColors.activeOrange),
+                        color:  Colors.orange),
                     width: 70,
                     height: 70,
                     decoration: BoxDecoration(
@@ -490,7 +489,7 @@ class _TrackState extends State<Track> {
                               TextSpan(
                                   text: "SMILE",
                                   style: TextStyle(
-                                      color: CupertinoColors.activeOrange,
+                                      color:  Colors.orange,
                                       fontSize: 18,
                                       fontWeight: FontWeight.bold)),
                               TextSpan(
@@ -502,7 +501,7 @@ class _TrackState extends State<Track> {
                               TextSpan(
                                   text: " FACE",
                                   style: TextStyle(
-                                      color: CupertinoColors.activeOrange,
+                                      color:  Colors.orange,
                                       fontSize: 18,
                                       fontWeight: FontWeight.bold)),
                               TextSpan(
@@ -540,7 +539,7 @@ class _TrackState extends State<Track> {
                         child: Text(
                           "View Pictures/videos of your donation",
                           style: TextStyle(
-                              color: CupertinoColors.activeOrange,
+                              color:  Colors.orange,
                               fontSize: 20),
                         ),
                       ),

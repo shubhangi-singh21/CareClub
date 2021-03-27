@@ -48,8 +48,7 @@ class _AuthState extends State<Auth> {
                   },
                   child: Text(
                     "Login",
-                    style: TextStyle(
-                        color: CupertinoColors.destructiveRed, fontSize: 19),
+                    style: TextStyle(color: HexColor("#931924"), fontSize: 19),
                   ),
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(15)),
@@ -71,7 +70,7 @@ class _AuthState extends State<Auth> {
                       MaterialPageRoute(builder: (context) => Signup()));
                 },
                 child: Text(
-                  "COME JOIN US / SIGN UP",
+                  " SIGN UP",
                   style: TextStyle(color: Colors.white, fontSize: 15),
                 ),
                 color: HexColor("#931924"),
@@ -81,6 +80,14 @@ class _AuthState extends State<Auth> {
             ),
           ),
           SizedBox(height: 10),
+          Row(
+            children: [
+              Container(
+                height: 20,
+                width: 30,
+              )
+            ],
+          )
         ],
       ),
     );

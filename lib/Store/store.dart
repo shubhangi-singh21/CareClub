@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Store extends StatefulWidget {
+class Store1 extends StatefulWidget {
   @override
   _StoreState createState() => _StoreState();
 }
 
-class _StoreState extends State<Store> {
+class _StoreState extends State<Store1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,7 +35,7 @@ class _StoreState extends State<Store> {
                     fontWeight: FontWeight.bold),
                 children: <TextSpan>[
               TextSpan(
-                  text: "club",
+                  text: "Club",
                   style: TextStyle(
                       shadows: [
                         Shadow(
@@ -47,7 +47,7 @@ class _StoreState extends State<Store> {
                       fontSize: 34,
                       fontWeight: FontWeight.bold)),
               TextSpan(
-                  text: "Store",
+                  text: " Store",
                   style: TextStyle(
                       color: Colors.black,
                       fontSize: 34,

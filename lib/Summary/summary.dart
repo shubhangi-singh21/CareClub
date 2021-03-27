@@ -1,3 +1,4 @@
+import 'package:careclub/Track/track.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hexcolor/hexcolor.dart';
@@ -20,7 +21,7 @@ class _SummaryState extends State<Summary1> {
         automaticallyImplyLeading: false,
         title: Text(
           "Summary",
-          style: TextStyle(color: CupertinoColors.activeOrange, fontSize: 24),
+          style: TextStyle(color: HexColor("#931924"), fontSize: 24),
         ),
         centerTitle: true,
       ),
@@ -143,12 +144,12 @@ class _SummaryState extends State<Summary1> {
             SizedBox(height: 12),
             GestureDetector(
               onTap: () {
-                //Navigator.push(
-                //   context, MaterialPageRoute(builder: (context) => Track()));
+                Navigator.push(
+                    context, MaterialPageRoute(builder: (context) => Track()));
               },
               child: Container(
                   decoration: BoxDecoration(
-                      border: Border.all(color: HexColor("#FF6666"), width: 2),
+                      border: Border.all(color: HexColor("#931924"), width: 2),
                       borderRadius: BorderRadius.circular(15)),
                   width: MediaQuery.of(context).size.width / 1.3,
                   height: MediaQuery.of(context).size.height / 13.3,
