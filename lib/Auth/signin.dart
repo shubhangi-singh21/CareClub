@@ -1,4 +1,5 @@
 import 'package:careclub/Auth/google.dart';
+import 'package:careclub/Home/home.dart';
 import 'package:careclub/Language/language1.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
@@ -330,8 +331,8 @@ class _SigninState extends State<Signin> {
                       formkey.currentState.save();
                       signIn(email, passwd).then((user) {
                         if (user != null) {
-                          //  Navigator.push(context,
-                          //    MaterialPageRoute(builder: (context) => Test()));
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Test()));
                         } else {
                           print("not");
                         }
@@ -399,13 +400,13 @@ class _SigninState extends State<Signin> {
                       borderRadius: BorderRadius.circular(15)),
                   onPressed: () async {
                     signInWithGoogle().whenComplete(() async {
-                      //  Navigator.of(context).push(
-                      //  MaterialPageRoute(
-                      //  builder: (context) {
-                      //  return Test();
-                      //},
-                      //),
-                      //);
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) {
+                            return Test();
+                          },
+                        ),
+                      );
                     });
                   },
                   child: Row(
