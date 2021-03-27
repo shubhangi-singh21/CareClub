@@ -252,10 +252,8 @@ class _SigninState extends State<Signin> {
                                     color: CupertinoColors.systemGrey),
                                 hintText: DemoLocalization.of(context)
                                     .gettranslatedvalue('E-mail'),
-                                prefixIcon: Icon(
-                                  Icons.person,
-                                  color: CupertinoColors.activeOrange,
-                                ),
+                                prefixIcon: Icon(Icons.person,
+                                    color: HexColor("#931924")),
                                 border: InputBorder.none),
                           ),
                         ),
@@ -288,7 +286,7 @@ class _SigninState extends State<Signin> {
                             decoration: InputDecoration(
                               suffixIcon: Icon(
                                 Icons.visibility_off_outlined,
-                                color: CupertinoColors.activeOrange,
+                                color: HexColor("#931924"),
                               ),
                               hintStyle:
                                   TextStyle(color: CupertinoColors.systemGrey),
@@ -296,7 +294,7 @@ class _SigninState extends State<Signin> {
                                   .gettranslatedvalue('pwd'),
                               prefixIcon: Icon(
                                 Icons.lock,
-                                color: CupertinoColors.activeOrange,
+                                color: HexColor("#931924"),
                               ),
                               border: InputBorder.none,
                             ),
@@ -324,7 +322,7 @@ class _SigninState extends State<Signin> {
               width: 210,
               height: 70,
               child: FlatButton(
-                  color: HexColor("#FF6666"),
+                  color: HexColor("#931924"),
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(15)),
                   onPressed: () async {
@@ -392,7 +390,7 @@ class _SigninState extends State<Signin> {
             Center(
                 child: Container(
               decoration: BoxDecoration(
-                  border: Border.all(color: HexColor("#FF6666")),
+                  border: Border.all(color: HexColor("#931924")),
                   borderRadius: BorderRadius.circular(15)),
               width: 350,
               height: 70,

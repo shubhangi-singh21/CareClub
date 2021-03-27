@@ -38,7 +38,7 @@ class _AuthState extends State<Auth> {
               child: Container(
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
-                    border: Border.all(color: HexColor("#FF6666"), width: 2)),
+                    border: Border.all(color: HexColor("#931924"), width: 2)),
                 width: MediaQuery.of(context).size.width / 1.2,
                 height: 70,
                 child: FlatButton(
@@ -63,7 +63,7 @@ class _AuthState extends State<Auth> {
               width: MediaQuery.of(context).size.width / 1.2,
               height: 70,
               decoration: BoxDecoration(
-                  border: Border.all(color: HexColor("#FF6666"), width: 2),
+                  border: Border.all(color: HexColor("#931924"), width: 2),
                   borderRadius: BorderRadius.circular(15)),
               child: FlatButton(
                 onPressed: () {
@@ -74,7 +74,7 @@ class _AuthState extends State<Auth> {
                   "COME JOIN US / SIGN UP",
                   style: TextStyle(color: Colors.white, fontSize: 15),
                 ),
-                color: CupertinoColors.destructiveRed,
+                color: HexColor("#931924"),
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(15)),
               ),

@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "550855755226",
+    "firebase_url": "https://welfare-47cff-default-rtdb.firebaseio.com",
+    "project_id": "welfare-47cff",
+    "storage_bucket": "welfare-47cff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550855755226:android:6e57abaa640762dbb66ce3",
+        "android_client_info": {
+          "package_name": "com.example.careclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550855755226-rfebugutl703j94c5k5vnb5fn2u4hm31.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.careclub",
+            "certificate_hash": "4901f64c1dcbb79c1d481489adb039da1843e81d"
+          }
+        },
+        {
+          "client_id": "550855755226-vtf12hqoiieroj09l3td1884e666i0te.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.careclub",
+            "certificate_hash": "dde8a0dd620228724a0903970d94ecace5f29d7d"
+          }
+        },
+        {
+          "client_id": "550855755226-bemc3jmhb90svqjrolpkiu3cuj725jce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAml2YptMdSLcAwP3Fj0OyUi50y01q-jU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550855755226-bemc3jmhb90svqjrolpkiu3cuj725jce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550855755226:android:0e58cafb5d28496eb66ce3",
+        "android_client_info": {
+          "package_name": "com.example.welfare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550855755226-bc7s5hhakdh28stma3fuho79m56db563.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.welfare",
+            "certificate_hash": "dde8a0dd620228724a0903970d94ecace5f29d7d"
+          }
+        },
+        {
+          "client_id": "550855755226-rndvbdlpgg63avcfiob6ps7d0ms8p4gc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.welfare",
+            "certificate_hash": "4901f64c1dcbb79c1d481489adb039da1843e81d"
+          }
+        },
+        {
+          "client_id": "550855755226-bemc3jmhb90svqjrolpkiu3cuj725jce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAml2YptMdSLcAwP3Fj0OyUi50y01q-jU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550855755226-bemc3jmhb90svqjrolpkiu3cuj725jce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
