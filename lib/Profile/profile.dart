@@ -2,6 +2,7 @@ import 'package:careclub/Global/global.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:hexcolor/hexcolor.dart';
 
 class Profile extends StatelessWidget {
   @override
@@ -56,7 +57,7 @@ class Profile extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
-                  color: CupertinoColors.activeOrange,
+                  color: HexColor("#931924"),
                   child: ListTile(
                     leading: Icon(
                       Icons.security,
@@ -81,7 +82,7 @@ class Profile extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
-                  color: CupertinoColors.activeOrange,
+                  color: HexColor("#931924"),
                   child: ListTile(
                     leading: Icon(
                       Icons.history,
@@ -106,7 +107,7 @@ class Profile extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
-                  color: CupertinoColors.activeOrange,
+                  color: HexColor("#931924"),
                   child: ListTile(
                     leading: Icon(
                       Icons.help,
@@ -131,7 +132,7 @@ class Profile extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
-                  color: CupertinoColors.activeOrange,
+                  color: HexColor("#931924"),
                   child: ListTile(
                     leading: Icon(
                       Icons.settings,
@@ -156,7 +157,7 @@ class Profile extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
-                  color: CupertinoColors.activeOrange,
+                  color: HexColor("#931924"),
                   child: ListTile(
                     leading: Icon(
                       Icons.supervised_user_circle,
@@ -181,7 +182,7 @@ class Profile extends StatelessWidget {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
-                  color: CupertinoColors.activeOrange,
+                  color: HexColor("#931924"),
                   child: ListTile(
                     leading: Icon(
                       Icons.exit_to_app,

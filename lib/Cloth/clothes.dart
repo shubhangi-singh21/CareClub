@@ -149,7 +149,7 @@ class _ClothesState extends State<Clothes> {
                               children: [
                                 Icon(
                                   Icons.person,
-                                  color: CupertinoColors.activeOrange,
+                                  color: HexColor("#931924"),
                                 ),
                                 SizedBox(
                                   width: 12,
@@ -184,7 +184,7 @@ class _ClothesState extends State<Clothes> {
                               children: [
                                 Icon(
                                   CupertinoIcons.location,
-                                  color: CupertinoColors.activeOrange,
+                                  color: HexColor("#931924"),
                                 ),
                                 SizedBox(
                                   width: 12,
@@ -231,7 +231,7 @@ class _ClothesState extends State<Clothes> {
                             decoration: InputDecoration(
                                 prefixIcon: Icon(
                                   CupertinoIcons.phone,
-                                  color: CupertinoColors.activeOrange,
+                                  color: HexColor("#931924"),
                                 ),
                                 border: InputBorder.none,
                                 hintText: "Enter mobile number",
@@ -274,7 +274,7 @@ class _ClothesState extends State<Clothes> {
                             decoration: InputDecoration(
                                 prefixIcon: Icon(
                                   MaterialCommunityIcons.card_bulleted_outline,
-                                  color: CupertinoColors.activeOrange,
+                                  color: HexColor("#931924"),
                                 ),
                                 border: InputBorder.none,
                                 hintText: "Cloth Description",
@@ -305,7 +305,7 @@ class _ClothesState extends State<Clothes> {
                               SizedBox(width: 14),
                               Icon(
                                 FontAwesome.image,
-                                color: CupertinoColors.activeOrange,
+                                color: HexColor("#931924"),
                               ),
                               SizedBox(
                                 width: 15,
@@ -321,7 +321,7 @@ class _ClothesState extends State<Clothes> {
                                 width: 120,
                               ),
                               IconButton(
-                                color: CupertinoColors.activeOrange,
+                                color: HexColor("#931924"),
                                 onPressed: () async {
                                   uploadToStorage();
                                 },
@@ -367,7 +367,7 @@ class _ClothesState extends State<Clothes> {
                       child: Container(
                           decoration: BoxDecoration(
                               border: Border.all(
-                                  color: HexColor("#FF6666"), width: 2),
+                                  color: HexColor("#931924"), width: 2),
                               borderRadius: BorderRadius.circular(15)),
                           width: MediaQuery.of(context).size.width / 1.3,
                           height: MediaQuery.of(context).size.height / 11.3,
@@ -375,8 +375,7 @@ class _ClothesState extends State<Clothes> {
                             child: Text(
                               "Submit",
                               style: TextStyle(
-                                  color: CupertinoColors.activeOrange,
-                                  fontSize: 25),
+                                  color: HexColor("#931924"), fontSize: 25),
                             ),
                           )),
                     ),

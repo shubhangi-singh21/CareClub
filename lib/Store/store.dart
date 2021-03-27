@@ -114,12 +114,12 @@ class _StoreState extends State<Store1> {
                   child: Column(
                     children: [
                       Image.asset(
-                        "images/welfare.jpeg",
+                        "images/welfare.png",
                         alignment: Alignment.center,
                         height: 250,
                       ),
                       Text(
-                        "WElfare mug",
+                        "CAREClub mug",
                         style: TextStyle(
                             color: CupertinoColors.black, fontSize: 17),
                       )
@@ -136,12 +136,14 @@ class _StoreState extends State<Store1> {
                       Image.asset(
                         "images/umbrella.jpeg",
                         alignment: Alignment.center,
-                        height: 250,
+                        height: 240,
                       ),
-                      Text(
-                        "Sust goals umbrella",
-                        style: TextStyle(
-                            color: CupertinoColors.black, fontSize: 17),
+                      Flexible(
+                        child: Text(
+                          "Sustainable goals\numbrella",
+                          style: TextStyle(
+                              color: CupertinoColors.black, fontSize: 16),
+                        ),
                       )
                     ],
                   ),
@@ -163,10 +165,10 @@ class _StoreState extends State<Store1> {
                       Image.asset(
                         "images/sustainable.jpeg",
                         alignment: Alignment.center,
-                        height: 250,
+                        height: 230,
                       ),
                       Text(
-                        "Sust goals bag",
+                        "Sustainable goals bag",
                         style: TextStyle(
                             color: CupertinoColors.black, fontSize: 17),
                       )

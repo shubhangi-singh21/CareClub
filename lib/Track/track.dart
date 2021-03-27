@@ -1,3 +1,4 @@
+import 'package:delayed_display/delayed_display.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
@@ -169,39 +170,49 @@ class _TrackState extends State<Track> {
                         children: [
                           Column(
                             children: [
-                              Container(
-                                child: icon[index],
-                                width: 60,
-                                height: 60,
-                                decoration: BoxDecoration(
-                                    border: Border.all(color: Colors.grey[400]),
-                                    borderRadius: BorderRadius.circular(200)),
+                              DelayedDisplay(
+                                delay: Duration(seconds: 1),
+                                child: Container(
+                                  child: icon[index],
+                                  width: 60,
+                                  height: 60,
+                                  decoration: BoxDecoration(
+                                      border:
+                                          Border.all(color: Colors.grey[400]),
+                                      borderRadius: BorderRadius.circular(200)),
+                                ),
                               ),
-                              Container(
-                                  width: 4,
-                                  height: 22,
-                                  color: index == 0
-                                      ? Colors.green[700]
-                                      : Colors.grey[400])
+                              DelayedDisplay(
+                                delay: Duration(seconds: 1),
+                                child: Container(
+                                    width: 4,
+                                    height: 22,
+                                    color: index == 0
+                                        ? Colors.green[700]
+                                        : Colors.grey[400]),
+                              )
                             ],
                           ),
                           SizedBox(
                             width: 15,
                           ),
-                          Container(
-                            decoration: BoxDecoration(
-                                border: Border.all(color: Colors.grey[400]),
-                                borderRadius: BorderRadius.circular(15)),
-                            width: MediaQuery.of(context).size.width / 1.4,
-                            height: MediaQuery.of(context).size.height / 12,
-                            child: Padding(
-                              padding: const EdgeInsets.all(15.0),
-                              child: Text(
-                                names3[index],
-                                style: TextStyle(
-                                    color: CupertinoColors.systemGrey,
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.bold),
+                          DelayedDisplay(
+                            delay: Duration(seconds: 1),
+                            child: Container(
+                              decoration: BoxDecoration(
+                                  border: Border.all(color: Colors.grey[400]),
+                                  borderRadius: BorderRadius.circular(15)),
+                              width: MediaQuery.of(context).size.width / 1.4,
+                              height: MediaQuery.of(context).size.height / 12,
+                              child: Padding(
+                                padding: const EdgeInsets.all(15.0),
+                                child: Text(
+                                  names3[index],
+                                  style: TextStyle(
+                                      color: CupertinoColors.systemGrey,
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold),
+                                ),
                               ),
                             ),
                           ),
@@ -212,25 +223,29 @@ class _TrackState extends State<Track> {
             ),
           ),
           SizedBox(height: 30),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: GestureDetector(
-              onTap: () {},
-              child: Container(
-                  decoration: BoxDecoration(
-                      border: Border.all(color: HexColor("#931924"), width: 2),
-                      borderRadius: BorderRadius.circular(15)),
-                  width: MediaQuery.of(context).size.width / 1.3,
-                  height: MediaQuery.of(context).size.height / 13.3,
-                  child: Center(
-                    child: Padding(
-                      padding: const EdgeInsets.all(9.0),
-                      child: Text(
-                        "View Pictures/videos of your donation",
-                        style: TextStyle(color: Colors.orange, fontSize: 20),
+          DelayedDisplay(
+            delay: Duration(seconds: 2),
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: GestureDetector(
+                onTap: () {},
+                child: Container(
+                    decoration: BoxDecoration(
+                        border:
+                            Border.all(color: HexColor("#931924"), width: 2),
+                        borderRadius: BorderRadius.circular(15)),
+                    width: MediaQuery.of(context).size.width / 1.3,
+                    height: MediaQuery.of(context).size.height / 13.3,
+                    child: Center(
+                      child: Padding(
+                        padding: const EdgeInsets.all(9.0),
+                        child: Text(
+                          "View Pictures/videos of your donation",
+                          style: TextStyle(color: Colors.orange, fontSize: 17),
+                        ),
                       ),
-                    ),
-                  )),
+                    )),
+              ),
             ),
           )
         ],

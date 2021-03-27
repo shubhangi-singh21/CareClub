@@ -112,7 +112,7 @@ flutter:
      - lib/Language/types/hi.json
      - images/sustainable.jpeg
      - images/umbrella.jpeg
-     - images/welfare.jpeg
+     - images/welfare.png
      - images/peace.jpeg
      - images/summary.jpeg
      - images/Location.gif

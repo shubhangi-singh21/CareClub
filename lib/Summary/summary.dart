@@ -157,7 +157,7 @@ class _SummaryState extends State<Summary1> {
                     child: Text(
                       "Click here to track your order",
                       style: TextStyle(
-                          color: CupertinoColors.activeOrange, fontSize: 23),
+                          color: CupertinoColors.activeOrange, fontSize: 20),
                     ),
                   )),
             )
