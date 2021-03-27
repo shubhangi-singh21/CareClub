@@ -35,6 +35,7 @@ crafted with <span style="color: #ce2029;">&hearts;</span> by team Alpha Debugge
      <img alt="Contact NGO" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Contact%2BNGO.png" height="350" /> 
     <img alt="Track Screen" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Track_Screen.png" height="350" /> 
    <img alt="Summary" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Summary.png" height="350" /> 
+   <img alt="Profile Screen" src="https://github.com/shubhangi-singh21/CareClub/blob/master/images/Profile.png" height="350" />
 </div>
 
 
