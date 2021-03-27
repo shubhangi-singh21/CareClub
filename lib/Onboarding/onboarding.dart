@@ -94,7 +94,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
         PageViewModel(
           title: "Small actions * Pool of helpful people = Big change",
           body:
-              "Happiness doesn't result from what we get, but from what we give.\nWe believe in WElfare of all.",
+              "Happiness doesn't result from what we get, but from what we give.\nTo care is to share.",
           image: _buildImage('page5'),
           decoration: pageDecoration,
         ),
