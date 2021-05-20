@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="CareClub Logo" src="images/logo.png" height="80" />
+  <img alt="CareClub Logo" src="images/logo.png" height="90" />
 </div>
 
 <br>
